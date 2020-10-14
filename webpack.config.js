@@ -7,10 +7,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
     mode: 'development',
     entry: {
-        'single-spa.config': './main.js',
+        'vue-component': './main.js',
         'common-dependencies': [
-            'react',
-            'react-dom',
             'vue',
             'vue-template-compiler'
           ],
